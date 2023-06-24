@@ -1,0 +1,8 @@
+//storage formats:
+SBOT:
+	EffectList: [[TopicSheetIndex,EffectCount(Absolute value and not percentage)]] alias: tempList
+	BlackList:  [[chapter,SheetIndex(questions waala sheet]]
+	topics:	    [[Topic,SheetIndex],[Topic,SheetIndex]] // Topic = ChapterNum-Subtopic number
+	getChapterAndTopic(): returns [Chapter,Topic]
+	processQuestions(): returns [chapter,[Questions(index_type = spreasheet]]
+	GenQuestions(): reutns [processQuestions,precessquestions,processQuestions]//Alias: self.phyquestions
